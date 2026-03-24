@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    font-family: Arial;
+    text-align: center;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 50px auto;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.option {
+    background: #eee;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.option:hover {
+    background: #4CAF50;
+    color: white;
+}
+
+.progress {
+    width: 100%;
+    background: #ddd;
+    height: 10px;
+}
+
+#progress-bar {
+    height: 10px;
+    width: 100%;
+    background: green;
+}
